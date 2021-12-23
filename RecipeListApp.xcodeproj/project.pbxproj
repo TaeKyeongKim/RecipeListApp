@@ -18,6 +18,7 @@
 		0A1B871B2772428800680AA8 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871A2772428700680AA8 /* Pizza.swift */; };
 		0A1B871D2772EF7800680AA8 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */; };
 		0A424F402774AF9A008FAAED /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */; };
+		0A424F762774E0A6008FAAED /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F752774E0A6008FAAED /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		0A1B871A2772428700680AA8 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		0A424F752774E0A6008FAAED /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			children = (
 				0A1B871427722A8B00680AA8 /* Recipe.swift */,
 				0A1B871A2772428700680AA8 /* Pizza.swift */,
+				0A424F752774E0A6008FAAED /* Ingredient.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				0A424F402774AF9A008FAAED /* RecipeTabView.swift in Sources */,
 				0A1B871D2772EF7800680AA8 /* RecipeDetailView.swift in Sources */,
+				0A424F762774E0A6008FAAED /* Ingredient.swift in Sources */,
 				0A1B871527722A8B00680AA8 /* Recipe.swift in Sources */,
 				0A1B871727722C0C00680AA8 /* RecipeModel.swift in Sources */,
 				0A1B871B2772428800680AA8 /* Pizza.swift in Sources */,

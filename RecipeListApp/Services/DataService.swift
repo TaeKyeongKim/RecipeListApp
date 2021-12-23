@@ -29,8 +29,12 @@ class DataService {
             do {
                 let recipeData = try decorder.decode([Recipe].self, from: data)
                 
+                //Add unique IDs
                 for i in recipeData{
                     i.id = UUID()
+                    for j in i.ingredients{
+                        j.id = UUID()
+                    }
                 }
                 
                 return recipeData
