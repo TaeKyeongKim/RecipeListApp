@@ -17,6 +17,7 @@
 		0A1B871927722F6900680AA8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871827722F6900680AA8 /* DataService.swift */; };
 		0A1B871B2772428800680AA8 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871A2772428700680AA8 /* Pizza.swift */; };
 		0A1B871D2772EF7800680AA8 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */; };
+		0A424F402774AF9A008FAAED /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0A1B871827722F6900680AA8 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0A1B871A2772428700680AA8 /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				0A1B8700277216CF00680AA8 /* RecipeListView.swift */,
 				0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */,
+				0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A424F402774AF9A008FAAED /* RecipeTabView.swift in Sources */,
 				0A1B871D2772EF7800680AA8 /* RecipeDetailView.swift in Sources */,
 				0A1B871527722A8B00680AA8 /* Recipe.swift in Sources */,
 				0A1B871727722C0C00680AA8 /* RecipeModel.swift in Sources */,
