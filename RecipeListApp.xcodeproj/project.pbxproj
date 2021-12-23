@@ -19,6 +19,7 @@
 		0A1B871D2772EF7800680AA8 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */; };
 		0A424F402774AF9A008FAAED /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */; };
 		0A424F762774E0A6008FAAED /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F752774E0A6008FAAED /* Ingredient.swift */; };
+		0A424F782774E423008FAAED /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A424F772774E423008FAAED /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		0A424F752774E0A6008FAAED /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		0A424F772774E423008FAAED /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,9 +92,10 @@
 		0A1B870C277216EA00680AA8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */,
+				0A424F772774E423008FAAED /* RecipeFeaturedView.swift */,
 				0A1B8700277216CF00680AA8 /* RecipeListView.swift */,
 				0A1B871C2772EF7800680AA8 /* RecipeDetailView.swift */,
-				0A424F3F2774AF9A008FAAED /* RecipeTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				0A1B871527722A8B00680AA8 /* Recipe.swift in Sources */,
 				0A1B871727722C0C00680AA8 /* RecipeModel.swift in Sources */,
 				0A1B871B2772428800680AA8 /* Pizza.swift in Sources */,
+				0A424F782774E423008FAAED /* RecipeFeaturedView.swift in Sources */,
 				0A1B8701277216CF00680AA8 /* RecipeListView.swift in Sources */,
 				0A1B86FF277216CF00680AA8 /* RecipeListApp.swift in Sources */,
 				0A1B871927722F6900680AA8 /* DataService.swift in Sources */,
