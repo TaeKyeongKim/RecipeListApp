@@ -6,18 +6,19 @@
 //
 
 import Foundation
-class DataService {
+//Gets Struct/Class That is identifiable and decodable.
+class DataService <T: Identifiable & Decodable>  {
     
-
+    
     //Parse local json file
-   static func getLocalData () -> [Recipe]{
+    func getLocalData (_ fileName:String, _ fileType:String) -> [T]{
         
-        let pathString = Bundle.main.path(forResource: "recipes", ofType: "json")
+        let pathString = Bundle.main.path(forResource: fileName, ofType: fileType)
         
         //Check if path String is not nil, otherwise...
         guard pathString != nil else{
             //if path String is nill, return empty array of recipe
-            return [Recipe]()
+            return [T]()
         }
         
         //if pathString is not nil
@@ -27,16 +28,10 @@ class DataService {
             let decorder = JSONDecoder()
             
             do {
-                let recipeData = try decorder.decode([Recipe].self, from: data)
+                let recipeData = try decorder.decode([T].self, from: data)
                 
-                //Add unique IDs
-                for i in recipeData{
-                    i.id = UUID()
-                    for j in i.ingredients{
-                        j.id = UUID()
-                    }
-                }
-                
+              
+                                
                 return recipeData
                 
             }catch{
@@ -46,7 +41,7 @@ class DataService {
             print(error)
         }
         
-        return [Recipe]()
+        return [T]()
     }
     
 }

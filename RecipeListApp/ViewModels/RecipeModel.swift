@@ -10,9 +10,18 @@ class RecipeModel : ObservableObject {
     @Published var recipes = [Recipe]()
     
     init(){
-        
-        self.recipes = DataService.getLocalData()
-        
+        let fileName = "recipes"
+        let fileType = "json"
+        let getRecipe = DataService<Recipe>()
+        self.recipes = getRecipe.getLocalData(fileName,fileType)
+        //Add unique IDs
+        for i in  self.recipes {
+            i.id = UUID()
+            for j in i.ingredients{
+                j.id = UUID()
+            }
+        }
+
             
             
             
