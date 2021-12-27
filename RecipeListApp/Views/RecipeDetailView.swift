@@ -27,8 +27,9 @@ struct RecipeDetailView: View {
                 
                 // MARK: Serving Size Pricker
                 Text(recipe.name)
+                    .bold()
                     .font(.largeTitle)
-                    .padding(.leading)
+                    .padding([.leading, .bottom])
                 
                 VStack(alignment: .leading){
                     Text("Select your serving size: ")
@@ -95,7 +96,7 @@ struct RecipeDetailView: View {
                 
             }
             
-        }.navigationBarTitle(recipe.name)
+        }
     }
 }
 
